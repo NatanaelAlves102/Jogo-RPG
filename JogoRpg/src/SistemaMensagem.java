@@ -33,23 +33,26 @@ public class SistemaMensagem {
         System.out.println("     |=_=|+|+|   | =_= | |  | |     |_- |+|+|   |_ =   |=/   ");
         System.out.println("     | _ ^^^^^   |= -  | |    |=_=^^^^^   |_=-   |/       ");
         System.out.println("     |=_ =       | =_-_| |  | |     |   =_      | -_   |    ");
-        System.out.println("     |_=-_       |=_=  | |  | |     |=_=        |=-    |    ");
-        System.out.println("__________________________________________________________________");
-        System.out.println("                     Bem-vindo ao jogo!                        ");
+        System.out.println("     |_=-_       |=_=  | |  | |     |=_=        |=-    |    \n");
+        System.out.println("__________________________________________________________________\n");
+        System.out.println("                     Lendas do Castelo                            \n");
+        System.out.println("__________________________________________________________________\n");
+        System.out.println("                     Bem-vindo ao jogo!                        \n");
+        System.out.println("__________________________________________________________________\n");
     
     
     }
 
     //MENU
-
     public static void menuJogo(){
+        
         System.out.println("***----------------------------------------------------***");
         System.out.println("                    Iniciar o Jogo!                       ");
         System.out.println("***----------------------------------------------------***");
         System.out.println("                    Descrição do Jogo                     ");
         System.out.println("***----------------------------------------------------***");
         System.out.println("                    Crétidos do Jogo                      ");
-        System.out.println("***----------------------------------------------------***");
+        System.out.println("***----------------------------------------------------***\n");
 
     }
 

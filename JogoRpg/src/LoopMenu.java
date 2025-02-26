@@ -26,7 +26,10 @@ public void loopDoMenu(){
             sistema.mapaGeral();
             break;
             case 2:
-            sistema.mapaGeral();
+            System.out.println("===============================");
+            System.out.println("  Jogo desenvolvido por Natanael!");
+            System.out.println("      Com ajuda do ChatGPT! 😆");
+            System.out.println("===============================");
 
             break;
             case 3:
