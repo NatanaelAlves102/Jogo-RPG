@@ -1,4 +1,4 @@
-public class Sistema {
+public class SistemaMensagem {
     
     //TITULO
     public static void exibirIntroducao() {
@@ -56,6 +56,7 @@ public class Sistema {
     //MAPA DO JOGO 
     public static void mapaGeral(){
 
+        System.out.println("Mapa");
       
     }
 
