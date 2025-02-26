@@ -21,20 +21,21 @@ public void loopDoMenu(){
         escolha = new java.util.Scanner(System.in).nextInt();
 
         switch(escolha){
-            case 1:
+            case 1://Inicio do Jogo
 
-            sistema.mapaGeral();
+            
             break;
-            case 2:
+            case 2://Descrição
+            System.out.println("Descrição");
+
+            break;
+            case 3://Credito
+
             System.out.println("=========================================\n");
             System.out.println("    Jogo desenvolvido por Natanael!\n");
             System.out.println("        Com ajuda do ChatGPT! \n");
             System.out.println("=========================================\n");
-
-            break;
-            case 3:
-
-            sistema.mapaGeral();
+           
             break;
             case 0:
             System.out.println("Saindo do Jogo.....");
