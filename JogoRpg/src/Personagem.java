@@ -12,6 +12,7 @@ public class Personagem {
     private final int danoMax;
     private final int danoMin;
 
+
     //Metado para simplicificar a criação dos personagem 
     public Personagem(String personagem, String classeDoPersonagem, int vidaPersonagem, int danoMax, int danoMin){
         this.personagem = personagem;
@@ -21,7 +22,7 @@ public class Personagem {
         this.danoMin = danoMin;
 
     }
-
+   
     //Informação sobre os Personagem
     public void informacaoPersonagem(){
         System.out.println("Nome: " + personagem);
