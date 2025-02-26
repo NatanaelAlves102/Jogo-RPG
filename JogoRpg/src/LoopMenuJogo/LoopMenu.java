@@ -1,3 +1,8 @@
+
+
+package LoopMenuJogo;
+import SistemaPersonagem.SistemaMensagem;
+
 public class LoopMenu{
 
     private SistemaMensagem sistema;
@@ -22,7 +27,7 @@ public void loopDoMenu(){
 
         switch(escolha){
             case 1://Inicio do Jogo
-
+            sistema.mapaGeral();
             
             break;
             case 2://Descrição

@@ -1,3 +1,5 @@
+package SistemaPersonagem;
+
 public class SistemaMensagem {
     
     //TITULO
@@ -59,7 +61,31 @@ public class SistemaMensagem {
     //MAPA DO JOGO 
     public static void mapaGeral(){
 
-        System.out.println("Mapa");
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+        System.out.println("~~~~~~        CASTELO NA ILHA        ~~~~~~");
+        System.out.println("~~~~~~        ██████████████         ~~~~~~");
+        System.out.println("~~~~~~        █  ┌───┐ ┌───┐ █         ~~~~~~");
+        System.out.println("~~~~~~        █  │█ █│ │█ █│ █         ~~~~~~");
+        System.out.println("~~~~~~        █  └───┘ └───┘ █         ~~~~~~");
+        System.out.println("~~~~~~        ██████████████         ~~~~~~");
+        System.out.println("~~~~~~~~~~~~~~    ██████    ~~~~~~~~~~~~~~~");
+        System.out.println("~~~~~~~~~~~~~~    ██████    ~~~~~~~~~~~~~~~");
+        System.out.println("~~~~~~~~~~~~~~====██████====~~~~~~~~~~~~~~");
+        System.out.println("~~~~~~~~~~~~~~    ██████    ~~~~~~~~~~~~~~~");
+        System.out.println("~~~~~~~=========/        \\========~~~~~~~");
+        System.out.println("~~~~~~~        /          \\        ~~~~~~~");
+        System.out.println("~~~~~~~       /            \\       ~~~~~~~");
+        System.out.println("~~~~~~~======/              \\======~~~~~~~");
+        System.out.println("~~~~~~~      |   LOJA      |      ~~~~~~~");
+        System.out.println("~~~~~~~      |  ██████     |      ~~~~~~~");
+        System.out.println("~~~~~~~      |  ██████     |      ~~~~~~~");
+        System.out.println("~~~~~~~      |    ▓▓       |      ~~~~~~~");
+        System.out.println("~~~~~~~======|==============|======~~~~~~~");
+        System.out.println("~~~~~~~      |  CAVERNA     |      ~~~~~~~");
+        System.out.println("~~~~~~~      |  ██████     |      ~~~~~~~");
+        System.out.println("~~~~~~~      |  ██████     |      ~~~~~~~");
+        System.out.println("~~~~~~~      |    ▓▓       |      ~~~~~~~");
+
       
     }
 

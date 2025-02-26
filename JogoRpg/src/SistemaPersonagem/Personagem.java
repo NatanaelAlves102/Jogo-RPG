@@ -1,8 +1,9 @@
+package SistemaPersonagem;
 import java.util.Random;
 
 public class Personagem {
     
-      Random teclado = new Random();
+      Random random = new Random();
 
    
     //Criação dos Personagem
@@ -36,7 +37,7 @@ public class Personagem {
    
     public int danoAleatorio() {
     
-        return teclado.nextInt(this.danoMax - this.danoMin + 1) + danoMin;
+        return random.nextInt(this.danoMax - this.danoMin + 1) + danoMin;
     }
 
 
