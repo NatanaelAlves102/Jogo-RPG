@@ -1,6 +1,7 @@
 package SistemaPersonagem;
 import java.util.Random;
 
+
 public class Personagem {
     
       Random random = new Random();
