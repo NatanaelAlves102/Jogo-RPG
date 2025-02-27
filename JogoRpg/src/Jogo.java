@@ -3,6 +3,7 @@ import SistemaPersonagem.Personagem;
 import SistemaPersonagem.SistemaMensagem;
 
 public class Jogo {
+<<<<<<< Updated upstream
     public static void main(String[] args) {
         
         
@@ -17,6 +18,29 @@ public class Jogo {
         sistema.exibirIntroducao();
         loop.loopDoMenu();
         
+=======
+    public static void main(String[] args){
+        
+        Sistema mensagem = new Sistema;
+        Personagem p1 = new Personagem("A", "Mago", 10, 5, 2);
+   
+
+
+        
+
+
+
+
+        p1.informacaoPersonagem();
+
+
+        //teste
+        int dano = p1.danoAleatorio();
+        System.out.println("Dano: " + dano);
+
+        
+
+>>>>>>> Stashed changes
 
    
    

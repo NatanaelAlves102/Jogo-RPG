@@ -35,6 +35,7 @@ public class Personagem {
 
     
    
+    // Dano do Personagem
     public int danoAleatorio() {
     
         return random.nextInt(this.danoMax - this.danoMin + 1) + danoMin;
@@ -42,5 +43,5 @@ public class Personagem {
 
 
 
-    
+
 }
